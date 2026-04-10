@@ -40,7 +40,7 @@ Response + Chart
 
 ---
 ## 🏗️ Architecture Overview
-![Image](Image\Architecture.png)
+![Image](Image/Architecture.png)
 
 ## 🧠 Multi-LLM Architecture (🔥 Highlight This)
 
