@@ -1,0 +1,770 @@
+2026-04-09T01:47:15.536942+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-09T01:47:15.542262+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-09T01:47:20.056988+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-09T01:47:20.057483+0530 | INFO | __main__:seed_memory - Seeding 15 Q&A pairs into agent memory…
+2026-04-09T01:47:20.058368+0530 | INFO | __main__:seed_memory -   [01/15] Seeded: How many patients do we have?
+2026-04-09T01:47:20.058979+0530 | INFO | __main__:seed_memory -   [02/15] Seeded: List all doctors and their specializations
+2026-04-09T01:47:20.059597+0530 | INFO | __main__:seed_memory -   [03/15] Seeded: What is the total revenue from all invoices?
+2026-04-09T01:47:20.060736+0530 | INFO | __main__:seed_memory -   [04/15] Seeded: Which doctor has the most appointments?
+2026-04-09T01:47:20.061108+0530 | INFO | __main__:seed_memory -   [05/15] Seeded: Show the top 5 patients by total spending
+2026-04-09T01:47:20.061374+0530 | INFO | __main__:seed_memory -   [06/15] Seeded: Show revenue by doctor
+2026-04-09T01:47:20.061669+0530 | INFO | __main__:seed_memory -   [07/15] Seeded: How many cancelled appointments are there?
+2026-04-09T01:47:20.061929+0530 | INFO | __main__:seed_memory -   [08/15] Seeded: Show unpaid invoices
+2026-04-09T01:47:20.062252+0530 | INFO | __main__:seed_memory -   [09/15] Seeded: Which city has the most patients?
+2026-04-09T01:47:20.062551+0530 | INFO | __main__:seed_memory -   [10/15] Seeded: List patients who visited more than 3 times
+2026-04-09T01:47:20.062787+0530 | INFO | __main__:seed_memory -   [11/15] Seeded: Average treatment cost by specialization
+2026-04-09T01:47:20.063548+0530 | INFO | __main__:seed_memory -   [12/15] Seeded: Show monthly appointment count for the past 6 months
+2026-04-09T01:47:20.065346+0530 | INFO | __main__:seed_memory -   [13/15] Seeded: What percentage of appointments are no-shows?
+2026-04-09T01:47:20.066902+0530 | INFO | __main__:seed_memory -   [14/15] Seeded: Show the busiest day of the week for appointments
+2026-04-09T01:47:20.067250+0530 | INFO | __main__:seed_memory -   [15/15] Seeded: Show patient registration trend by month
+2026-04-09T01:47:20.067906+0530 | INFO | __main__:seed_memory - ✅ Memory seeding complete. 15 pairs loaded.
+2026-04-09T01:47:48.473920+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T01:47:48.474800+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-09T01:47:48.475105+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-09T01:47:48.475523+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-09T01:47:48.475764+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-09T01:47:48.476106+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-09T01:47:48.477508+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T01:47:48.910500+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-09T01:47:48.914793+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-09T01:47:51.228634+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-09T01:48:00.698182+0530 | INFO | app.main:log_requests - GET / → 200 [3.7ms]
+2026-04-09T01:48:01.813830+0530 | INFO | app.main:log_requests - GET /favicon.ico → 404 [0.6ms]
+2026-04-09T01:48:30.057972+0530 | INFO | app.main:log_requests - GET /docs/ → 307 [1.0ms]
+2026-04-09T01:48:30.079894+0530 | INFO | app.main:log_requests - GET /docs → 200 [4.4ms]
+2026-04-09T01:48:31.802223+0530 | INFO | app.main:log_requests - GET /openapi.json → 200 [74.8ms]
+2026-04-09T01:49:31.548838+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-09T01:49:45.645872+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T01:49:45.646955+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-09T01:49:45.647557+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-09T01:49:45.649034+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-09T01:49:45.649315+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-09T01:49:45.649782+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-09T01:49:45.650057+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T01:49:46.029662+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-09T01:49:46.033188+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-09T01:49:48.509742+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-09T01:50:42.020997+0530 | INFO | app.main:log_requests - GET /docs → 200 [1.3ms]
+2026-04-09T01:50:43.435975+0530 | INFO | app.main:log_requests - GET /openapi.json → 200 [41.9ms]
+2026-04-09T01:50:43.607646+0530 | INFO | app.main:log_requests - GET /favicon.ico → 404 [0.4ms]
+2026-04-09T01:51:20.108308+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-09T01:51:20.109172+0530 | ERROR | app.api.routes:chat - [CHAT] Agent error: 'Agent' object has no attribute 'run'
+2026-04-09T01:51:20.111290+0530 | INFO | app.main:log_requests - POST /chat → 200 [6.4ms]
+2026-04-09T22:55:21.844814+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T22:55:21.846098+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-09T22:55:21.846831+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-09T22:55:21.847160+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-09T22:55:21.847384+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-09T22:55:21.847687+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-09T22:55:21.847876+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T22:55:22.231101+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-09T22:55:22.234188+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-09T22:55:25.596937+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-09T22:57:54.309770+0530 | INFO | app.main:log_requests - GET / → 200 [43.1ms]
+2026-04-09T22:57:55.353824+0530 | INFO | app.main:log_requests - GET /favicon.ico → 404 [0.4ms]
+2026-04-09T22:57:58.810963+0530 | INFO | app.main:log_requests - GET /docs/ → 307 [0.5ms]
+2026-04-09T22:57:58.823748+0530 | INFO | app.main:log_requests - GET /docs → 200 [2.5ms]
+2026-04-09T22:58:23.876502+0530 | INFO | app.main:log_requests - GET /openapi.json → 200 [27.7ms]
+2026-04-09T22:58:52.345174+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-09T22:58:52.347201+0530 | ERROR | app.api.routes:chat - [CHAT] Agent error: 'Agent' object has no attribute 'run'
+2026-04-09T22:58:52.349797+0530 | INFO | app.main:log_requests - POST /chat → 200 [13.2ms]
+2026-04-09T22:59:12.408566+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-09T22:59:12.409715+0530 | ERROR | app.api.routes:chat - [CHAT] Agent error: 'Agent' object has no attribute 'run'
+2026-04-09T22:59:12.410975+0530 | INFO | app.main:log_requests - POST /chat → 200 [3.4ms]
+2026-04-09T22:59:12.894241+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-09T22:59:12.895827+0530 | ERROR | app.api.routes:chat - [CHAT] Agent error: 'Agent' object has no attribute 'run'
+2026-04-09T22:59:12.896907+0530 | INFO | app.main:log_requests - POST /chat → 200 [3.8ms]
+2026-04-09T22:59:13.623554+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-09T22:59:13.624588+0530 | ERROR | app.api.routes:chat - [CHAT] Agent error: 'Agent' object has no attribute 'run'
+2026-04-09T22:59:13.626216+0530 | INFO | app.main:log_requests - POST /chat → 200 [3.9ms]
+2026-04-09T22:59:13.844660+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-09T22:59:13.845488+0530 | ERROR | app.api.routes:chat - [CHAT] Agent error: 'Agent' object has no attribute 'run'
+2026-04-09T22:59:13.846524+0530 | INFO | app.main:log_requests - POST /chat → 200 [3.0ms]
+2026-04-09T23:08:27.063906+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-09T23:08:35.996826+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T23:08:35.997549+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-09T23:08:35.997919+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-09T23:08:35.998228+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-09T23:08:35.998750+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-09T23:08:35.999230+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-09T23:08:35.999537+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T23:08:36.387661+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-09T23:08:36.393992+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-09T23:08:39.492635+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-09T23:08:45.945231+0530 | INFO | app.main:log_requests - GET / → 200 [1.7ms]
+2026-04-09T23:08:46.201689+0530 | INFO | app.main:log_requests - GET /favicon.ico → 404 [0.8ms]
+2026-04-09T23:08:56.531648+0530 | INFO | app.main:log_requests - GET /health → 200 [11.8ms]
+2026-04-09T23:09:14.770292+0530 | INFO | app.main:log_requests - GET /docs → 200 [1.7ms]
+2026-04-09T23:09:16.927019+0530 | INFO | app.main:log_requests - GET /openapi.json → 200 [31.9ms]
+2026-04-09T23:09:29.298125+0530 | INFO | app.main:log_requests - GET /health → 200 [5.9ms]
+2026-04-09T23:09:51.133470+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-09T23:09:51.134809+0530 | ERROR | app.api.routes:chat - [CHAT] Agent error: Agent.send_message() missing 1 required positional argument: 'message'
+2026-04-09T23:09:51.136289+0530 | INFO | app.main:log_requests - POST /chat → 200 [6.8ms]
+2026-04-09T23:09:56.322235+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-09T23:09:56.323707+0530 | ERROR | app.api.routes:chat - [CHAT] Agent error: Agent.send_message() missing 1 required positional argument: 'message'
+2026-04-09T23:09:56.345873+0530 | INFO | app.main:log_requests - POST /chat → 200 [25.3ms]
+2026-04-09T23:11:04.926448+0530 | INFO | app.main:log_requests - GET /health → 200 [10.9ms]
+2026-04-09T23:11:17.014462+0530 | INFO | app.main:log_requests - GET /health → 200 [8.4ms]
+2026-04-09T23:11:18.550632+0530 | INFO | app.main:log_requests - GET /health → 200 [5.4ms]
+2026-04-09T23:11:34.835410+0530 | INFO | app.main:log_requests - GET /health → 200 [4.5ms]
+2026-04-09T23:11:37.612802+0530 | INFO | app.main:log_requests - GET /health → 200 [7.1ms]
+2026-04-09T23:12:11.055402+0530 | INFO | app.main:log_requests - GET /health → 200 [4.3ms]
+2026-04-09T23:12:15.770519+0530 | INFO | app.main:log_requests - GET /health → 200 [4.6ms]
+2026-04-09T23:12:16.893572+0530 | INFO | app.main:log_requests - GET /health → 200 [4.1ms]
+2026-04-09T23:12:18.970724+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'list all doctors and their specializations'
+2026-04-09T23:12:18.972214+0530 | ERROR | app.api.routes:chat - [CHAT] Agent error: Agent.send_message() missing 1 required positional argument: 'message'
+2026-04-09T23:12:18.973775+0530 | INFO | app.main:log_requests - POST /chat → 200 [4.6ms]
+2026-04-09T23:12:21.127433+0530 | INFO | app.main:log_requests - GET /health → 200 [3.4ms]
+2026-04-09T23:13:32.705705+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-09T23:13:32.708556+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-09T23:13:34.600637+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-09T23:13:34.601001+0530 | INFO | __main__:seed_memory - Seeding 15 Q&A pairs into agent memory…
+2026-04-09T23:13:34.603967+0530 | INFO | __main__:seed_memory -   [01/15] Seeded: How many patients do we have?
+2026-04-09T23:13:34.604444+0530 | INFO | __main__:seed_memory -   [02/15] Seeded: List all doctors and their specializations
+2026-04-09T23:13:34.604876+0530 | INFO | __main__:seed_memory -   [03/15] Seeded: What is the total revenue from all invoices?
+2026-04-09T23:13:34.605205+0530 | INFO | __main__:seed_memory -   [04/15] Seeded: Which doctor has the most appointments?
+2026-04-09T23:13:34.605549+0530 | INFO | __main__:seed_memory -   [05/15] Seeded: Show the top 5 patients by total spending
+2026-04-09T23:13:34.612168+0530 | INFO | __main__:seed_memory -   [06/15] Seeded: Show revenue by doctor
+2026-04-09T23:13:34.612745+0530 | INFO | __main__:seed_memory -   [07/15] Seeded: How many cancelled appointments are there?
+2026-04-09T23:13:34.613159+0530 | INFO | __main__:seed_memory -   [08/15] Seeded: Show unpaid invoices
+2026-04-09T23:13:34.613422+0530 | INFO | __main__:seed_memory -   [09/15] Seeded: Which city has the most patients?
+2026-04-09T23:13:34.613696+0530 | INFO | __main__:seed_memory -   [10/15] Seeded: List patients who visited more than 3 times
+2026-04-09T23:13:34.613953+0530 | INFO | __main__:seed_memory -   [11/15] Seeded: Average treatment cost by specialization
+2026-04-09T23:13:34.614262+0530 | INFO | __main__:seed_memory -   [12/15] Seeded: Show monthly appointment count for the past 6 months
+2026-04-09T23:13:34.614510+0530 | INFO | __main__:seed_memory -   [13/15] Seeded: What percentage of appointments are no-shows?
+2026-04-09T23:13:34.614757+0530 | INFO | __main__:seed_memory -   [14/15] Seeded: Show the busiest day of the week for appointments
+2026-04-09T23:13:34.615058+0530 | INFO | __main__:seed_memory -   [15/15] Seeded: Show patient registration trend by month
+2026-04-09T23:13:34.615533+0530 | INFO | __main__:seed_memory - ✅ Memory seeding complete. 15 pairs loaded.
+2026-04-09T23:13:59.225703+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-09T23:14:04.203146+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T23:14:04.203834+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-09T23:14:04.204160+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-09T23:14:04.204567+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-09T23:14:04.204822+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-09T23:14:04.205089+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-09T23:14:04.205285+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T23:14:04.458819+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-09T23:14:04.461225+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-09T23:14:06.464591+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-09T23:14:21.728429+0530 | INFO | app.main:log_requests - GET /health → 200 [16.5ms]
+2026-04-09T23:14:32.797689+0530 | INFO | app.main:log_requests - GET /redoc → 200 [3.4ms]
+2026-04-09T23:14:33.701267+0530 | INFO | app.main:log_requests - GET /openapi.json → 200 [33.2ms]
+2026-04-09T23:14:34.182399+0530 | INFO | app.main:log_requests - GET /favicon.ico → 404 [0.5ms]
+2026-04-09T23:15:50.339039+0530 | INFO | app.main:log_requests - GET /docs → 200 [2.0ms]
+2026-04-09T23:15:52.196523+0530 | INFO | app.main:log_requests - GET /openapi.json → 200 [0.6ms]
+2026-04-09T23:16:09.658830+0530 | INFO | app.main:log_requests - GET /health → 200 [5.3ms]
+2026-04-09T23:16:09.802015+0530 | INFO | app.main:log_requests - GET /health → 200 [5.7ms]
+2026-04-09T23:16:11.909461+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-09T23:16:11.910946+0530 | ERROR | app.api.routes:chat - [CHAT] Agent error: Agent.send_message() missing 1 required positional argument: 'message'
+2026-04-09T23:16:11.912736+0530 | INFO | app.main:log_requests - POST /chat → 200 [10.6ms]
+2026-04-09T23:16:14.048735+0530 | INFO | app.main:log_requests - GET /health → 200 [8.5ms]
+2026-04-09T23:16:21.354901+0530 | INFO | app.main:log_requests - GET /health → 200 [5.0ms]
+2026-04-09T23:19:11.104998+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-09T23:19:18.588462+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T23:19:18.589584+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-09T23:19:18.590279+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-09T23:19:18.590489+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-09T23:19:18.590717+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-09T23:19:18.590978+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-09T23:19:18.591177+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T23:19:18.940493+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-09T23:19:18.944229+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-09T23:19:21.962492+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-09T23:19:38.845583+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-09T23:19:42.334262+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T23:19:42.334843+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-09T23:19:42.335211+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-09T23:19:42.335456+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-09T23:19:42.335681+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-09T23:19:42.335894+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-09T23:19:42.336891+0530 | INFO | app.main:startup - ============================================================
+2026-04-09T23:19:42.384145+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-09T23:19:42.389902+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-09T23:19:45.256141+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-09T23:22:04.519909+0530 | INFO | app.main:log_requests - GET /health → 200 [10.3ms]
+2026-04-09T23:22:10.960214+0530 | INFO | app.main:log_requests - GET /health → 200 [5.5ms]
+2026-04-09T23:22:17.436446+0530 | INFO | app.main:log_requests - GET /health → 200 [4.5ms]
+2026-04-09T23:22:24.167303+0530 | INFO | app.main:log_requests - GET /health → 200 [4.2ms]
+2026-04-09T23:22:25.822972+0530 | INFO | app.main:log_requests - GET /health → 200 [8.0ms]
+2026-04-09T23:22:43.425379+0530 | INFO | app.main:log_requests - GET /health → 200 [4.6ms]
+2026-04-09T23:22:55.633874+0530 | INFO | app.main:log_requests - GET /health → 200 [5.7ms]
+2026-04-09T23:22:57.741964+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'how many patients do we have?'
+2026-04-09T23:22:57.746233+0530 | ERROR | app.api.routes:chat - [CHAT] Agent error: object async_generator can't be used in 'await' expression
+2026-04-09T23:22:57.748342+0530 | INFO | app.main:log_requests - POST /chat → 200 [15.3ms]
+2026-04-09T23:22:59.932408+0530 | INFO | app.main:log_requests - GET /health → 200 [4.8ms]
+2026-04-10T16:52:35.656910+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T16:52:35.659141+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T16:52:35.660773+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T16:52:35.661129+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T16:52:35.661378+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T16:52:35.662364+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T16:52:35.663753+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T16:52:35.772345+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T16:52:35.782432+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T16:52:39.912609+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T16:52:40.126731+0530 | INFO | app.main:log_requests - GET / → 200 [3.1ms]
+2026-04-10T16:52:40.378247+0530 | INFO | app.main:log_requests - GET /favicon.ico → 404 [0.5ms]
+2026-04-10T16:52:57.861600+0530 | INFO | app.main:log_requests - GET /docs → 200 [3.7ms]
+2026-04-10T16:52:58.727795+0530 | INFO | app.main:log_requests - GET /openapi.json → 200 [42.8ms]
+2026-04-10T16:53:07.651095+0530 | INFO | app.main:log_requests - GET /health → 200 [39.0ms]
+2026-04-10T16:53:23.955343+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-10T16:53:31.323955+0530 | INFO | app.api.routes:chat - [CHAT] Done in 7368.6ms | rows=0 | chart=none
+2026-04-10T16:53:31.329618+0530 | INFO | app.main:log_requests - POST /chat → 200 [7380.7ms]
+2026-04-10T16:54:52.507244+0530 | INFO | app.main:log_requests - GET /health → 200 [4.6ms]
+2026-04-10T16:55:01.621450+0530 | INFO | app.main:log_requests - GET /health → 200 [4.5ms]
+2026-04-10T16:55:08.800020+0530 | INFO | app.main:log_requests - GET /health → 200 [4.8ms]
+2026-04-10T16:55:10.892142+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'Show me the top 5 patients by total spending'
+2026-04-10T16:55:21.756341+0530 | INFO | app.api.routes:chat - [CHAT] Done in 10864.2ms | rows=0 | chart=none
+2026-04-10T16:55:21.758380+0530 | INFO | app.main:log_requests - POST /chat → 200 [10868.0ms]
+2026-04-10T16:55:23.917280+0530 | INFO | app.main:log_requests - GET /health → 200 [4.2ms]
+2026-04-10T16:55:52.825058+0530 | INFO | app.main:log_requests - GET /health → 200 [4.7ms]
+2026-04-10T16:56:06.018938+0530 | INFO | app.main:log_requests - GET /health → 200 [4.3ms]
+2026-04-10T17:02:32.862674+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T17:02:45.903357+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:02:45.904217+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T17:02:45.904513+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T17:02:45.904774+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T17:02:45.905208+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T17:02:45.905600+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T17:02:45.905812+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:02:45.946060+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:02:45.952120+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:02:48.433708+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:05:03.392731+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T17:05:07.116531+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:05:07.117168+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T17:05:07.117548+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T17:05:07.117791+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T17:05:07.118050+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T17:05:07.118245+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T17:05:07.118436+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:05:07.147871+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:05:07.151015+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:05:09.748887+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:05:23.556386+0530 | INFO | app.main:log_requests - GET /health → 200 [12.6ms]
+2026-04-10T17:05:30.644264+0530 | INFO | app.main:log_requests - GET /health → 200 [4.4ms]
+2026-04-10T17:05:36.091601+0530 | INFO | app.main:log_requests - GET /health → 200 [5.5ms]
+2026-04-10T17:05:36.291991+0530 | INFO | app.main:log_requests - GET /health → 200 [5.7ms]
+2026-04-10T17:05:36.470125+0530 | INFO | app.main:log_requests - GET /health → 200 [5.2ms]
+2026-04-10T17:05:36.624746+0530 | INFO | app.main:log_requests - GET /health → 200 [5.0ms]
+2026-04-10T17:05:39.956594+0530 | INFO | app.main:log_requests - GET /health → 200 [5.7ms]
+2026-04-10T17:05:40.477738+0530 | INFO | app.main:log_requests - GET /health → 200 [7.3ms]
+2026-04-10T17:05:54.856993+0530 | INFO | app.main:log_requests - GET /health → 200 [4.4ms]
+2026-04-10T17:06:03.147379+0530 | INFO | app.main:log_requests - GET /health → 200 [4.1ms]
+2026-04-10T17:06:05.230349+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'how many patients do we have'
+2026-04-10T17:06:08.205599+0530 | INFO | app.api.routes:chat - [CHAT] Done in 2975.2ms | rows=0 | chart=none
+2026-04-10T17:06:08.207395+0530 | INFO | app.main:log_requests - POST /chat → 200 [2981.1ms]
+2026-04-10T17:06:10.366614+0530 | INFO | app.main:log_requests - GET /health → 200 [4.1ms]
+2026-04-10T17:13:36.133878+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T17:19:38.328935+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:19:38.332381+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:19:40.747539+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:19:40.750532+0530 | INFO | app.main:log_requests - GET /health → 200 [2452.4ms]
+2026-04-10T17:19:40.799165+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-10T17:19:47.901622+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT COUNT(*) FROM patients;
+2026-04-10T17:19:48.422261+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=bar
+2026-04-10T17:19:48.422469+0530 | INFO | app.api.routes:chat - [CHAT] Done in 7623.3ms | rows=1 | chart=bar
+2026-04-10T17:19:48.425147+0530 | INFO | app.main:log_requests - POST /chat → 200 [7628.0ms]
+2026-04-10T17:20:50.252030+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:20:50.255925+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:20:52.330736+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:20:52.332272+0530 | INFO | app.main:log_requests - GET /health -> 200 [2101.8ms]
+2026-04-10T17:20:52.339908+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-10T17:20:59.833330+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT count(*) FROM patients
+2026-04-10T17:21:00.230584+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=bar
+2026-04-10T17:21:00.230773+0530 | INFO | app.api.routes:chat - [CHAT] Done in 7890.9ms | rows=1 | chart=bar
+2026-04-10T17:21:00.232082+0530 | INFO | app.main:log_requests - POST /chat -> 200 [7894.1ms]
+2026-04-10T17:23:29.582062+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:23:29.582901+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T17:23:29.583465+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T17:23:29.583699+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T17:23:29.586670+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T17:23:29.587385+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T17:23:29.587689+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:23:29.755625+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:23:29.758596+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:23:33.380956+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:23:40.564390+0530 | INFO | app.main:log_requests - GET / -> 200 [2.1ms]
+2026-04-10T17:23:41.811577+0530 | INFO | app.main:log_requests - GET /favicon.ico -> 404 [0.7ms]
+2026-04-10T17:23:55.331262+0530 | INFO | app.main:log_requests - GET /docs/ -> 307 [0.5ms]
+2026-04-10T17:23:55.381693+0530 | INFO | app.main:log_requests - GET /docs -> 200 [5.4ms]
+2026-04-10T17:23:56.395433+0530 | INFO | app.main:log_requests - GET /openapi.json -> 200 [79.7ms]
+2026-04-10T17:24:08.748798+0530 | INFO | app.main:log_requests - GET /health -> 200 [8.8ms]
+2026-04-10T17:24:25.411325+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-10T17:24:32.827999+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT COUNT(*) FROM patients;
+2026-04-10T17:24:34.335623+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=bar
+2026-04-10T17:24:34.337462+0530 | INFO | app.api.routes:chat - [CHAT] Done in 8926.1ms | rows=1 | chart=bar
+2026-04-10T17:24:34.340734+0530 | INFO | app.main:log_requests - POST /chat -> 200 [8939.3ms]
+2026-04-10T17:25:44.045840+0530 | INFO | app.main:log_requests - GET /health -> 200 [9.8ms]
+2026-04-10T17:25:56.023284+0530 | INFO | app.main:log_requests - GET /health -> 200 [6.6ms]
+2026-04-10T17:26:08.751058+0530 | INFO | app.main:log_requests - GET /health -> 200 [7.1ms]
+2026-04-10T17:26:09.301442+0530 | INFO | app.main:log_requests - GET /health -> 200 [5.8ms]
+2026-04-10T17:26:28.746662+0530 | INFO | app.main:log_requests - GET /health -> 200 [6.0ms]
+2026-04-10T17:26:35.954704+0530 | INFO | app.main:log_requests - GET /health -> 200 [8.1ms]
+2026-04-10T17:26:38.206877+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'list all doctors and their specializations'
+2026-04-10T17:26:39.459392+0530 | INFO | app.api.routes:chat - [CHAT] Done in 1252.5ms | rows=0 | chart=none
+2026-04-10T17:26:39.461256+0530 | INFO | app.main:log_requests - POST /chat -> 200 [1257.6ms]
+2026-04-10T17:26:41.657249+0530 | INFO | app.main:log_requests - GET /health -> 200 [6.1ms]
+2026-04-10T17:27:14.682312+0530 | INFO | app.main:log_requests - GET /health -> 200 [5.3ms]
+2026-04-10T17:27:14.824461+0530 | INFO | app.main:log_requests - GET /health -> 200 [5.0ms]
+2026-04-10T17:27:16.952134+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'show unpaid invoices'
+2026-04-10T17:27:18.140208+0530 | INFO | app.api.routes:chat - [CHAT] Done in 1188.1ms | rows=0 | chart=none
+2026-04-10T17:27:18.143015+0530 | INFO | app.main:log_requests - POST /chat -> 200 [1192.9ms]
+2026-04-10T17:27:20.336056+0530 | INFO | app.main:log_requests - GET /health -> 200 [7.0ms]
+2026-04-10T17:41:49.710676+0530 | INFO | app.main:log_requests - GET /health -> 200 [75.1ms]
+2026-04-10T17:41:51.936915+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'show unpaid invoices'
+2026-04-10T17:41:53.172067+0530 | INFO | app.api.routes:chat - [CHAT] Done in 1235.2ms | rows=0 | chart=none
+2026-04-10T17:41:53.203479+0530 | INFO | app.main:log_requests - POST /chat -> 200 [1277.8ms]
+2026-04-10T17:41:55.765159+0530 | INFO | app.main:log_requests - GET /health -> 200 [9.3ms]
+2026-04-10T17:42:01.499237+0530 | INFO | app.main:log_requests - GET /health -> 200 [8.1ms]
+2026-04-10T17:42:37.231651+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-10T17:42:37.263644+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:42:37.267258+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:42:42.864117+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:42:43.381586+0530 | INFO | app.api.routes:chat - [CHAT] Done in 6149.9ms | rows=0 | chart=none
+2026-04-10T17:42:43.382866+0530 | INFO | app.main:log_requests - POST /chat -> 200 [6155.3ms]
+2026-04-10T17:44:37.022385+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T17:44:45.389820+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:44:45.394552+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T17:44:45.398754+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T17:44:45.406251+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T17:44:45.523212+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T17:44:45.595379+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T17:44:45.646105+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:44:45.711190+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:44:45.717643+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:44:52.128040+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:44:52.249061+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T17:44:57.865149+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:44:57.865821+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T17:44:57.866329+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T17:44:57.867252+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T17:44:57.867551+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T17:44:57.867821+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T17:44:57.868141+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:44:57.905010+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:44:57.908051+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:45:02.020485+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:45:04.304421+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T17:45:35.733897+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-10T17:45:35.766658+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:45:35.769432+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:45:36.198550+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'show unpaid invoices'
+2026-04-10T17:45:36.250631+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:45:36.260703+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:45:41.771724+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:45:42.409499+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:45:42.991589+0530 | WARNING | app.api.routes:chat - [CHAT] Using fallback SQL because the AI provider did not return an executable query.
+2026-04-10T17:45:42.993045+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT COUNT(*) as total_patients FROM patients
+2026-04-10T17:45:43.167725+0530 | WARNING | app.api.routes:chat - [CHAT] Using fallback SQL because the AI provider did not return an executable query.
+2026-04-10T17:45:43.169425+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT * FROM invoices WHERE status IN ('Pending', 'Overdue')
+2026-04-10T17:45:44.013873+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=bar
+2026-04-10T17:45:44.014181+0530 | INFO | app.api.routes:chat - [CHAT] Done in 8280.3ms | rows=1 | chart=bar
+2026-04-10T17:45:44.018574+0530 | INFO | app.main:log_requests - POST /chat -> 200 [8288.7ms]
+2026-04-10T17:45:44.322155+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=line
+2026-04-10T17:45:44.322505+0530 | INFO | app.api.routes:chat - [CHAT] Done in 8124.0ms | rows=134 | chart=line
+2026-04-10T17:45:44.323898+0530 | INFO | app.main:log_requests - POST /chat -> 200 [8129.5ms]
+2026-04-10T17:47:07.495144+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:47:07.496016+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T17:47:07.496400+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T17:47:07.496701+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T17:47:07.497014+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T17:47:07.497316+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T17:47:07.497562+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:47:07.540337+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:47:07.543419+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:47:12.744426+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:47:27.910257+0530 | INFO | app.main:log_requests - GET /health -> 200 [16.7ms]
+2026-04-10T17:47:30.021690+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'show unpaid invoices'
+2026-04-10T17:47:31.186255+0530 | WARNING | app.api.routes:chat - [CHAT] Using fallback SQL because the AI provider did not return an executable query.
+2026-04-10T17:47:31.190252+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT * FROM invoices WHERE status IN ('Pending', 'Overdue')
+2026-04-10T17:47:32.503415+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=line
+2026-04-10T17:47:32.503940+0530 | INFO | app.api.routes:chat - [CHAT] Done in 2482.3ms | rows=134 | chart=line
+2026-04-10T17:47:32.506584+0530 | INFO | app.main:log_requests - POST /chat -> 200 [2494.8ms]
+2026-04-10T17:47:34.898463+0530 | INFO | app.main:log_requests - GET /health -> 200 [5.3ms]
+2026-04-10T17:48:24.108309+0530 | INFO | app.main:log_requests - GET /health -> 200 [7.4ms]
+2026-04-10T17:48:59.168608+0530 | INFO | app.main:log_requests - GET /health -> 200 [7.9ms]
+2026-04-10T17:49:03.947451+0530 | INFO | app.main:log_requests - GET /health -> 200 [9.3ms]
+2026-04-10T17:49:06.282622+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'Average treament cost by specialization'
+2026-04-10T17:49:07.208607+0530 | INFO | app.api.routes:chat - [CHAT] Done in 926.0ms | rows=0 | chart=none
+2026-04-10T17:49:07.210574+0530 | INFO | app.main:log_requests - POST /chat -> 200 [930.4ms]
+2026-04-10T17:49:09.409383+0530 | INFO | app.main:log_requests - GET /health -> 200 [6.8ms]
+2026-04-10T17:49:28.941596+0530 | INFO | app.main:log_requests - GET /health -> 200 [12.3ms]
+2026-04-10T17:49:31.232932+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'Average treament cost by specialization'
+2026-04-10T17:49:31.240763+0530 | INFO | app.api.routes:chat - [CHAT] Cache HIT
+2026-04-10T17:49:31.253588+0530 | INFO | app.main:log_requests - POST /chat -> 200 [22.6ms]
+2026-04-10T17:49:33.549200+0530 | INFO | app.main:log_requests - GET /health -> 200 [7.1ms]
+2026-04-10T17:50:19.624827+0530 | INFO | app.main:log_requests - GET /health -> 200 [6.7ms]
+2026-04-10T17:50:44.082827+0530 | INFO | app.main:log_requests - GET /health -> 200 [6.8ms]
+2026-04-10T17:50:44.266073+0530 | INFO | app.main:log_requests - GET /health -> 200 [6.3ms]
+2026-04-10T17:50:46.497106+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'list patients who visited more than 3 times'
+2026-04-10T17:50:47.630190+0530 | INFO | app.api.routes:chat - [CHAT] Done in 1133.0ms | rows=0 | chart=none
+2026-04-10T17:50:47.632020+0530 | INFO | app.main:log_requests - POST /chat -> 200 [1138.6ms]
+2026-04-10T17:50:49.855678+0530 | INFO | app.main:log_requests - GET /health -> 200 [9.2ms]
+2026-04-10T17:56:20.748855+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T17:56:26.545643+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:56:26.546250+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T17:56:26.546574+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T17:56:26.546973+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T17:56:26.547642+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T17:56:26.547945+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T17:56:26.548172+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T17:56:26.597147+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:56:26.601458+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:56:31.853941+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:56:57.133662+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T17:58:00.170361+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-10T17:58:00.294413+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:58:00.309165+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:58:05.912780+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:58:06.814143+0530 | WARNING | app.api.routes:chat - [CHAT] Using fallback SQL because the AI provider did not return an executable query.
+2026-04-10T17:58:06.816833+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT COUNT(*) as total_patients FROM patients
+2026-04-10T17:58:09.157000+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=bar
+2026-04-10T17:58:09.157356+0530 | INFO | app.api.routes:chat - [CHAT] Done in 8987.0ms | rows=1 | chart=bar
+2026-04-10T17:58:09.161603+0530 | INFO | app.main:log_requests - POST /chat -> 200 [8999.1ms]
+2026-04-10T17:58:09.170353+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-10T17:58:09.170997+0530 | INFO | app.api.routes:chat - [CHAT] Cache HIT
+2026-04-10T17:58:09.174868+0530 | INFO | app.main:log_requests - POST /chat -> 200 [5.5ms]
+2026-04-10T17:58:59.120246+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-10T17:58:59.156447+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T17:58:59.163686+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T17:59:03.708109+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T17:59:10.787028+0530 | WARNING | app.api.routes:_set_provider_cooldown - [CHAT] gemini temporarily disabled for 60s after upstream quota/rate-limit error.
+2026-04-10T17:59:10.787979+0530 | WARNING | app.api.routes:chat - [CHAT] Using fallback SQL because the AI provider did not return an executable query.
+2026-04-10T17:59:10.789520+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT COUNT(*) as total_patients FROM patients
+2026-04-10T17:59:11.748356+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=bar
+2026-04-10T17:59:11.748660+0530 | INFO | app.api.routes:chat - [CHAT] Done in 12628.4ms | rows=1 | chart=bar
+2026-04-10T17:59:11.750353+0530 | INFO | app.main:log_requests - POST /chat -> 200 [12634.4ms]
+2026-04-10T17:59:11.758344+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'show unpaid invoices'
+2026-04-10T17:59:11.758779+0530 | WARNING | app.api.routes:chat - gemini is in cooldown — using fallback SQL execution mode.
+2026-04-10T17:59:11.765151+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT * FROM invoices WHERE status IN ('Pending', 'Overdue')
+2026-04-10T17:59:11.901540+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=line
+2026-04-10T17:59:11.901886+0530 | INFO | app.api.routes:chat - [CHAT] Done in 143.5ms | rows=134 | chart=line
+2026-04-10T17:59:11.902977+0530 | INFO | app.main:log_requests - POST /chat -> 200 [145.5ms]
+2026-04-10T18:00:23.148712+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:00:23.150312+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T18:00:23.151531+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T18:00:23.151878+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T18:00:23.152118+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T18:00:23.152380+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T18:00:23.152586+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:00:23.209140+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:00:23.216570+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T18:00:26.697814+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T18:00:39.371246+0530 | INFO | app.main:log_requests - GET /health -> 200 [12.5ms]
+2026-04-10T18:01:01.219892+0530 | INFO | app.main:log_requests - GET /health -> 200 [6.4ms]
+2026-04-10T18:01:24.639753+0530 | INFO | app.main:log_requests - GET /health -> 200 [6.0ms]
+2026-04-10T18:01:24.831186+0530 | INFO | app.main:log_requests - GET /health -> 200 [5.6ms]
+2026-04-10T18:01:27.035844+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'show unpaid invoices'
+2026-04-10T18:01:33.723721+0530 | WARNING | app.api.routes:_set_provider_cooldown - [CHAT] gemini temporarily disabled for 60s after upstream quota/rate-limit error.
+2026-04-10T18:01:33.724340+0530 | WARNING | app.api.routes:chat - [CHAT] Using fallback SQL because the AI provider did not return an executable query.
+2026-04-10T18:01:33.725506+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT * FROM invoices WHERE status IN ('Pending', 'Overdue')
+2026-04-10T18:01:34.204555+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=line
+2026-04-10T18:01:34.204936+0530 | INFO | app.api.routes:chat - [CHAT] Done in 7169.1ms | rows=134 | chart=line
+2026-04-10T18:01:34.205978+0530 | INFO | app.main:log_requests - POST /chat -> 200 [7178.9ms]
+2026-04-10T18:01:36.302370+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.7ms]
+2026-04-10T18:02:23.282641+0530 | INFO | app.main:log_requests - GET /health -> 200 [5.8ms]
+2026-04-10T18:02:23.450766+0530 | INFO | app.main:log_requests - GET /health -> 200 [5.9ms]
+2026-04-10T18:02:25.655763+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'average treatment cost by specialization'
+2026-04-10T18:02:25.663767+0530 | WARNING | app.api.routes:chat - gemini is in cooldown — using fallback SQL execution mode.
+2026-04-10T18:02:25.675338+0530 | INFO | app.api.routes:chat - [CHAT] Done in 19.5ms | rows=0 | chart=none
+2026-04-10T18:02:25.693251+0530 | INFO | app.main:log_requests - POST /chat -> 200 [38.9ms]
+2026-04-10T18:02:28.011235+0530 | INFO | app.main:log_requests - GET /health -> 200 [11.5ms]
+2026-04-10T18:03:05.793713+0530 | INFO | app.main:log_requests - GET /health -> 200 [6.4ms]
+2026-04-10T18:03:08.008622+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'average treatment cost by specialization'
+2026-04-10T18:03:08.010951+0530 | INFO | app.api.routes:chat - [CHAT] Cache HIT
+2026-04-10T18:03:08.014072+0530 | INFO | app.main:log_requests - POST /chat -> 200 [8.7ms]
+2026-04-10T18:03:10.230216+0530 | INFO | app.main:log_requests - GET /health -> 200 [6.7ms]
+2026-04-10T18:08:04.031711+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T18:08:08.324331+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:08:08.324905+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T18:08:08.325228+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T18:08:08.325456+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T18:08:08.325696+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T18:08:08.325957+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T18:08:08.326148+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:08:08.397926+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:08:08.424771+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T18:08:12.061293+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised.
+2026-04-10T18:08:27.400262+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T18:08:31.482395+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:08:31.482905+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T18:08:31.483147+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T18:08:31.483457+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T18:08:31.483692+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T18:08:31.483909+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T18:08:31.484093+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:08:31.528365+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:08:31.532156+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T18:08:35.019563+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=gemini.
+2026-04-10T18:08:59.485579+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T18:09:03.522771+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:09:03.523417+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T18:09:03.523663+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T18:09:03.523914+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T18:09:03.529337+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T18:09:03.530256+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T18:09:03.532236+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:09:03.584011+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:09:03.585808+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T18:09:06.904270+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=gemini.
+2026-04-10T18:12:15.594327+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T18:12:26.707858+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:12:26.709270+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T18:12:26.709928+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T18:12:26.713208+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T18:12:26.715627+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T18:12:26.728416+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T18:12:26.748801+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:12:27.062700+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:12:27.122612+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T18:12:36.505607+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=gemini.
+2026-04-10T18:12:47.011694+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T18:14:35.044268+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:14:35.047809+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T18:14:35.051995+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T18:14:35.071677+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T18:14:35.091993+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T18:14:35.101430+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T18:14:35.120403+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:14:35.286567+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:14:35.300537+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T18:15:16.675167+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=gemini.
+2026-04-10T18:15:17.047903+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T18:15:24.788686+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:15:24.789333+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T18:15:24.789857+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T18:15:24.790101+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T18:15:24.790352+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T18:15:24.790679+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T18:15:24.791070+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:15:24.871712+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:15:24.885358+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T18:15:28.980931+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=gemini.
+2026-04-10T18:16:40.689833+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T18:20:07.175873+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-10T18:20:07.493640+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:20:07.493964+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=gemini
+2026-04-10T18:20:07.502462+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T18:20:11.089029+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=gemini.
+2026-04-10T18:20:18.067031+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT count(*) FROM patients
+2026-04-10T18:20:18.760752+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=bar
+2026-04-10T18:20:18.760936+0530 | INFO | app.api.routes:chat - [CHAT] Done in 11585.1ms | rows=1 | chart=bar
+2026-04-10T18:20:18.764449+0530 | INFO | app.main:log_requests - POST /chat -> 200 [11594.0ms]
+2026-04-10T18:20:38.703852+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-10T18:20:38.724943+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:20:38.725277+0530 | WARNING | app.api.routes:chat - gemini is in cooldown — skipping to next provider.
+2026-04-10T18:20:38.725417+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=groq
+2026-04-10T18:20:38.730931+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Groq / llama-3.3-70b-versatile
+2026-04-10T18:20:38.731361+0530 | ERROR | app.api.routes:chat - [CHAT] Agent error: openai package is required. Install with: pip install 'vanna[openai]'
+2026-04-10T18:20:38.731894+0530 | INFO | app.main:log_requests - POST /chat -> 200 [30.6ms]
+2026-04-10T18:21:45.892355+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'How many patients do we have?'
+2026-04-10T18:21:45.913675+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:21:45.913938+0530 | WARNING | app.api.routes:chat - gemini is in cooldown — skipping to next provider.
+2026-04-10T18:21:45.914074+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=groq
+2026-04-10T18:21:45.916201+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Groq / llama-3.3-70b-versatile
+2026-04-10T18:21:47.441013+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=groq.
+2026-04-10T18:21:50.242701+0530 | WARNING | app.api.routes:_set_provider_cooldown - [CHAT] groq temporarily disabled for 60s after upstream quota/rate-limit error.
+2026-04-10T18:21:50.242913+0530 | WARNING | app.api.routes:chat - [CHAT] Provider groq failed, trying next provider.
+2026-04-10T18:21:50.243019+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=ollama
+2026-04-10T18:21:50.243114+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Ollama / llama3
+2026-04-10T18:21:50.613319+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=ollama.
+2026-04-10T18:22:04.245889+0530 | WARNING | app.api.routes:_set_provider_cooldown - [CHAT] ollama temporarily disabled for 60s after upstream quota/rate-limit error.
+2026-04-10T18:22:04.246158+0530 | WARNING | app.api.routes:chat - [CHAT] Provider ollama failed, trying next provider.
+2026-04-10T18:22:04.246367+0530 | WARNING | app.api.routes:chat - [CHAT] Using fallback SQL because the AI provider did not return an executable query.
+2026-04-10T18:22:04.247458+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT COUNT(*) as total_patients FROM patients
+2026-04-10T18:22:04.650615+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=bar
+2026-04-10T18:22:04.650826+0530 | INFO | app.api.routes:chat - [CHAT] Done in 18758.5ms | rows=1 | chart=bar
+2026-04-10T18:22:04.651597+0530 | INFO | app.main:log_requests - POST /chat -> 200 [18762.1ms]
+2026-04-10T18:22:36.760845+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:23:13.679125+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:23:13.679625+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T18:23:13.682552+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T18:23:13.682919+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T18:23:13.683284+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T18:23:13.683669+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T18:23:13.683962+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:23:13.706415+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:23:13.708317+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T18:23:16.240969+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=gemini.
+2026-04-10T18:23:39.998081+0530 | INFO | app.main:log_requests - GET /health -> 200 [4.5ms]
+2026-04-10T18:24:10.428202+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.6ms]
+2026-04-10T18:24:14.357557+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.9ms]
+2026-04-10T18:24:16.424228+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'show revenue thrend by month'
+2026-04-10T18:24:16.424742+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=gemini
+2026-04-10T18:24:27.894134+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT STRFTIME('%Y-%m', order_date) AS month, SUM(amount) AS revenue FROM order
+2026-04-10T18:24:27.895877+0530 | ERROR | app.api.routes:chat - [CHAT] DB execution error: no such table: orders
+2026-04-10T18:24:27.896960+0530 | INFO | app.main:log_requests - POST /chat -> 200 [11474.7ms]
+2026-04-10T18:24:30.004560+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.4ms]
+2026-04-10T18:25:09.513650+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.7ms]
+2026-04-10T18:25:12.372576+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.6ms]
+2026-04-10T18:25:14.519293+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'show monthly appointment count for the past 6 monts'
+2026-04-10T18:25:14.524851+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=gemini
+2026-04-10T18:25:29.674203+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT strftime('%Y-%m', appointment_date) AS month, COUNT(*) AS appointment_cou
+2026-04-10T18:25:29.788088+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=line
+2026-04-10T18:25:29.788424+0530 | INFO | app.api.routes:chat - [CHAT] Done in 15269.1ms | rows=7 | chart=line
+2026-04-10T18:25:29.805944+0530 | INFO | app.main:log_requests - POST /chat -> 200 [15287.5ms]
+2026-04-10T18:25:31.961879+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.1ms]
+2026-04-10T18:25:52.460396+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.8ms]
+2026-04-10T18:28:17.962754+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T18:29:40.691656+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:29:40.692114+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T18:29:40.692319+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T18:29:40.692512+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T18:29:40.692672+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T18:29:40.692809+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T18:29:40.692919+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:29:40.720848+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:29:40.789741+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T18:29:42.865555+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=gemini.
+2026-04-10T18:29:59.744147+0530 | INFO | app.main:log_requests - GET /health -> 200 [6.1ms]
+2026-04-10T18:30:05.717338+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.7ms]
+2026-04-10T18:30:07.918923+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.8ms]
+2026-04-10T18:30:09.984243+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'What is the total revenue?'
+2026-04-10T18:30:09.984736+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=gemini
+2026-04-10T18:30:12.648070+0530 | WARNING | app.api.routes:_set_provider_cooldown - [CHAT] gemini temporarily disabled for 60s after upstream quota/rate-limit error.
+2026-04-10T18:30:12.649428+0530 | WARNING | app.api.routes:chat - [CHAT] Provider gemini failed, trying next provider.
+2026-04-10T18:30:12.650161+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=groq
+2026-04-10T18:30:12.654476+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Groq / llama-3.3-70b-versatile
+2026-04-10T18:30:14.461475+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=groq.
+2026-04-10T18:30:16.329273+0530 | WARNING | app.api.routes:_set_provider_cooldown - [CHAT] groq temporarily disabled for 60s after upstream quota/rate-limit error.
+2026-04-10T18:30:16.329616+0530 | WARNING | app.api.routes:chat - [CHAT] Provider groq failed, trying next provider.
+2026-04-10T18:30:16.329869+0530 | WARNING | app.api.routes:chat - [CHAT] Using fallback SQL because the AI provider did not return an executable query.
+2026-04-10T18:30:16.330677+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT SUM(total_amount) as total_revenue FROM invoices
+2026-04-10T18:30:16.886938+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=bar
+2026-04-10T18:30:16.887193+0530 | INFO | app.api.routes:chat - [CHAT] Done in 6902.9ms | rows=1 | chart=bar
+2026-04-10T18:30:16.888042+0530 | INFO | app.main:log_requests - POST /chat -> 200 [6906.2ms]
+2026-04-10T18:30:19.011010+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.9ms]
+2026-04-10T18:30:38.463993+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.0ms]
+2026-04-10T18:30:40.678684+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.9ms]
+2026-04-10T18:30:42.762148+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'Show revenue by doctor'
+2026-04-10T18:30:42.762708+0530 | WARNING | app.api.routes:chat - gemini is in cooldown — skipping to next provider.
+2026-04-10T18:30:42.762974+0530 | WARNING | app.api.routes:chat - groq is in cooldown — skipping to next provider.
+2026-04-10T18:30:42.763178+0530 | INFO | app.api.routes:chat - [CHAT] Done in 1.0ms | rows=0 | chart=none
+2026-04-10T18:30:42.763852+0530 | INFO | app.main:log_requests - POST /chat -> 200 [2.3ms]
+2026-04-10T18:30:44.875997+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.0ms]
+2026-04-10T18:31:23.020242+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.0ms]
+2026-04-10T18:31:25.135547+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.9ms]
+2026-04-10T18:31:27.233189+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'Show revenue by doctor'
+2026-04-10T18:31:27.234211+0530 | INFO | app.api.routes:chat - [CHAT] Cache HIT
+2026-04-10T18:31:27.235416+0530 | INFO | app.main:log_requests - POST /chat -> 200 [3.0ms]
+2026-04-10T18:31:29.341656+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.8ms]
+2026-04-10T18:32:03.764510+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.9ms]
+2026-04-10T18:32:05.891804+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.2ms]
+2026-04-10T18:32:08.073568+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'Top 5 patients by spending'
+2026-04-10T18:32:08.073945+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=gemini
+2026-04-10T18:32:14.510812+0530 | WARNING | app.api.routes:_set_provider_cooldown - [CHAT] gemini temporarily disabled for 60s after upstream quota/rate-limit error.
+2026-04-10T18:32:14.511871+0530 | WARNING | app.api.routes:chat - [CHAT] Provider gemini failed, trying next provider.
+2026-04-10T18:32:14.512394+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=groq
+2026-04-10T18:32:15.772540+0530 | WARNING | app.api.routes:_set_provider_cooldown - [CHAT] groq temporarily disabled for 60s after upstream quota/rate-limit error.
+2026-04-10T18:32:15.773005+0530 | WARNING | app.api.routes:chat - [CHAT] Provider groq failed, trying next provider.
+2026-04-10T18:32:15.773308+0530 | WARNING | app.api.routes:chat - [CHAT] Using fallback SQL because the AI provider did not return an executable query.
+2026-04-10T18:32:15.773650+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT * FROM invoices WHERE status IN ('Pending', 'Overdue')
+2026-04-10T18:32:15.949688+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=line
+2026-04-10T18:32:15.950611+0530 | INFO | app.api.routes:chat - [CHAT] Done in 7877.0ms | rows=134 | chart=line
+2026-04-10T18:32:15.951827+0530 | INFO | app.main:log_requests - POST /chat -> 200 [7879.2ms]
+2026-04-10T18:32:18.051873+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.6ms]
+2026-04-10T18:33:11.716633+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.4ms]
+2026-04-10T18:33:13.964545+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'what is total number of patient present in database'
+2026-04-10T18:33:13.964907+0530 | WARNING | app.api.routes:chat - gemini is in cooldown — skipping to next provider.
+2026-04-10T18:33:13.965234+0530 | WARNING | app.api.routes:chat - groq is in cooldown — skipping to next provider.
+2026-04-10T18:33:13.965542+0530 | INFO | app.api.routes:chat - [CHAT] Done in 1.0ms | rows=0 | chart=none
+2026-04-10T18:33:13.966052+0530 | INFO | app.main:log_requests - POST /chat -> 200 [2.4ms]
+2026-04-10T18:33:16.064309+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.5ms]
+2026-04-10T18:42:18.371982+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T18:44:17.678333+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:44:17.681717+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: OpenAI / gpt-4.1-mini
+2026-04-10T18:44:19.304085+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=openai.
+2026-04-10T18:47:50.480690+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:47:50.481537+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T18:47:50.482108+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T18:47:50.482369+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T18:47:50.482563+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T18:47:50.482746+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T18:47:50.482891+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T18:47:50.519177+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T18:47:50.522028+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-2.5-flash)
+2026-04-10T18:47:54.228478+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=gemini.
+2026-04-10T18:48:23.383415+0530 | INFO | app.main:log_requests - GET /health -> 200 [21.0ms]
+2026-04-10T18:48:35.584369+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.9ms]
+2026-04-10T18:48:37.791331+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.5ms]
+2026-04-10T18:48:39.851947+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'Show revenue trend by month'
+2026-04-10T18:48:39.852359+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=gemini
+2026-04-10T18:48:47.579096+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT strftime('%Y-%m', order_date) AS sales_month, SUM(amount) AS total_revenu
+2026-04-10T18:48:47.580092+0530 | ERROR | app.api.routes:chat - [CHAT] DB execution error: no such table: orders
+2026-04-10T18:48:47.580683+0530 | INFO | app.main:log_requests - POST /chat -> 200 [7731.8ms]
+2026-04-10T18:48:49.694984+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.6ms]
+2026-04-10T18:49:09.133484+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.1ms]
+2026-04-10T18:49:11.249276+0530 | INFO | app.main:log_requests - GET /health -> 200 [4.1ms]
+2026-04-10T18:49:13.445097+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'What percentage of appointments are no-shows?'
+2026-04-10T18:49:13.445554+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=gemini
+2026-04-10T18:49:14.277135+0530 | WARNING | app.api.routes:_set_provider_cooldown - [CHAT] gemini temporarily disabled for 60s after upstream quota/rate-limit error.
+2026-04-10T18:49:14.277445+0530 | WARNING | app.api.routes:chat - [CHAT] Provider gemini failed, trying next provider.
+2026-04-10T18:49:14.277602+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=openai
+2026-04-10T18:49:14.280467+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: OpenAI / gpt-4.1-mini
+2026-04-10T18:49:15.589330+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=openai.
+2026-04-10T18:49:25.375373+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT
+  COUNT(*) AS total_appointments,
+  SUM(CASE WHEN status = 'no-show' THEN
+2026-04-10T18:49:25.879425+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=scatter
+2026-04-10T18:49:25.879608+0530 | INFO | app.api.routes:chat - [CHAT] Done in 12434.5ms | rows=1 | chart=scatter
+2026-04-10T18:49:25.881791+0530 | INFO | app.main:log_requests - POST /chat -> 200 [12437.4ms]
+2026-04-10T18:49:27.972179+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.5ms]
+2026-04-10T18:50:52.680758+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.2ms]
+2026-04-10T18:50:54.884082+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.1ms]
+2026-04-10T18:50:57.003846+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'Show monthly appointment count for the past 6 months'
+2026-04-10T18:50:57.006553+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=gemini
+2026-04-10T18:50:57.797920+0530 | WARNING | app.api.routes:_set_provider_cooldown - [CHAT] gemini temporarily disabled for 60s after upstream quota/rate-limit error.
+2026-04-10T18:50:57.799074+0530 | WARNING | app.api.routes:chat - [CHAT] Provider gemini failed, trying next provider.
+2026-04-10T18:50:57.803227+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=openai
+2026-04-10T18:51:16.029627+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT
+  STRFTIME('%Y-%m', appointment_date) AS month,
+  COUNT(*) AS appointment
+2026-04-10T18:51:16.094231+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=line
+2026-04-10T18:51:16.094527+0530 | INFO | app.api.routes:chat - [CHAT] Done in 19090.7ms | rows=6 | chart=line
+2026-04-10T18:51:16.095082+0530 | INFO | app.main:log_requests - POST /chat -> 200 [19092.0ms]
+2026-04-10T18:51:18.191900+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.8ms]
+2026-04-10T18:51:50.554491+0530 | INFO | app.main:log_requests - GET /health -> 200 [3.4ms]
+2026-04-10T18:51:59.235222+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.7ms]
+2026-04-10T18:52:01.304151+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'how many patients do we have'
+2026-04-10T18:52:01.304631+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=gemini
+2026-04-10T18:52:02.295723+0530 | WARNING | app.api.routes:_set_provider_cooldown - [CHAT] gemini temporarily disabled for 60s after upstream quota/rate-limit error.
+2026-04-10T18:52:02.296063+0530 | WARNING | app.api.routes:chat - [CHAT] Provider gemini failed, trying next provider.
+2026-04-10T18:52:02.296298+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=openai
+2026-04-10T18:52:07.088396+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT COUNT(*) AS total_patients FROM patients;
+2026-04-10T18:52:07.158319+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=bar
+2026-04-10T18:52:07.158605+0530 | INFO | app.api.routes:chat - [CHAT] Done in 5854.4ms | rows=1 | chart=bar
+2026-04-10T18:52:07.159507+0530 | INFO | app.main:log_requests - POST /chat -> 200 [5856.4ms]
+2026-04-10T18:52:09.250470+0530 | INFO | app.main:log_requests - GET /health -> 200 [1.4ms]
+2026-04-10T18:52:44.524049+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.
+2026-04-10T19:56:15.494798+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T19:56:15.495648+0530 | INFO | app.main:startup -   NL2SQL Clinic API starting up…
+2026-04-10T19:56:15.496418+0530 | INFO | app.main:startup -   LLM Provider : gemini
+2026-04-10T19:56:15.496840+0530 | INFO | app.main:startup -   Database     : clinic.db
+2026-04-10T19:56:15.497045+0530 | INFO | app.main:startup -   Cache TTL    : 300s
+2026-04-10T19:56:15.497215+0530 | INFO | app.main:startup -   Rate Limit   : 10/minute
+2026-04-10T19:56:15.497462+0530 | INFO | app.main:startup - ============================================================
+2026-04-10T19:56:15.556875+0530 | INFO | app.core.vanna_setup:<module> - Vanna 2.0 imported successfully.
+2026-04-10T19:56:15.559523+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: Google Gemini (gemini-1.5-flash)
+2026-04-10T19:56:17.831446+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=gemini.
+2026-04-10T19:56:27.984333+0530 | INFO | app.main:log_requests - GET /health -> 200 [19.1ms]
+2026-04-10T19:56:37.006274+0530 | INFO | app.main:log_requests - GET / -> 200 [4.6ms]
+2026-04-10T19:56:45.303451+0530 | INFO | app.main:log_requests - GET / -> 200 [0.4ms]
+2026-04-10T19:56:47.682379+0530 | INFO | app.main:log_requests - GET /docs/ -> 307 [0.3ms]
+2026-04-10T19:56:47.690498+0530 | INFO | app.main:log_requests - GET /docs -> 200 [0.8ms]
+2026-04-10T19:56:49.076331+0530 | INFO | app.main:log_requests - GET /openapi.json -> 200 [42.1ms]
+2026-04-10T19:57:30.535823+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.6ms]
+2026-04-10T19:57:32.624279+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.0ms]
+2026-04-10T19:57:34.679887+0530 | INFO | app.api.routes:chat - [CHAT] Question: 'List all doctors and their specializations'
+2026-04-10T19:57:34.680362+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=gemini
+2026-04-10T19:57:35.551864+0530 | WARNING | app.api.routes:_set_provider_cooldown - [CHAT] gemini temporarily disabled for 60s after upstream quota/rate-limit error.
+2026-04-10T19:57:35.552235+0530 | WARNING | app.api.routes:chat - [CHAT] Provider gemini failed, trying next provider.
+2026-04-10T19:57:35.552481+0530 | INFO | app.api.routes:chat - [CHAT] Trying provider=openai
+2026-04-10T19:57:35.556501+0530 | INFO | app.core.vanna_setup:_build_llm - LLM: OpenAI / gpt-4.1-mini
+2026-04-10T19:57:36.795993+0530 | INFO | app.core.vanna_setup:get_agent - Vanna 2.0 Agent initialised for provider=openai.
+2026-04-10T19:57:46.518203+0530 | DEBUG | app.services.sql_validator:validate_sql - SQL validation passed: SELECT * FROM doctors LIMIT 5;
+2026-04-10T19:57:47.045147+0530 | DEBUG | app.services.chart_service:generate_chart - Chart generated: type=bar
+2026-04-10T19:57:47.045352+0530 | INFO | app.api.routes:chat - [CHAT] Done in 12365.5ms | rows=5 | chart=bar
+2026-04-10T19:57:47.049030+0530 | INFO | app.main:log_requests - POST /chat -> 200 [12372.6ms]
+2026-04-10T19:57:49.140237+0530 | INFO | app.main:log_requests - GET /health -> 200 [2.8ms]
+2026-04-10T19:59:59.294424+0530 | INFO | app.main:shutdown - NL2SQL Clinic API shutting down.

@@ -1,0 +1,35 @@
+# Core
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Vanna AI 2.0
+vanna[fastapi,gemini,sqlite]>=2.0.0
+
+# LLM SDKs (choose one)
+google-genai>=0.8.0          # For Google Gemini (Option A)
+openai>=1.0.0                # Required by Vanna OpenAI-compatible integrations like Groq
+
+
+# Database
+# SQLite is built-in to Python — no extra install needed
+
+# Data generation
+faker>=25.0.0
+
+# Charts
+plotly>=5.22.0
+pandas>=2.2.0
+
+# Caching & Rate Limiting
+cachetools>=5.3.3
+slowapi>=0.1.9
+
+# Logging
+loguru>=0.7.2
+
+# Streamlit frontend
+streamlit>=1.35.0
+requests>=2.31.0
