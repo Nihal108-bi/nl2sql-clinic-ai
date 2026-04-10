@@ -49,7 +49,7 @@ User → "Top 5 patients by spending"
 ---
 
 ## 🧠🏗️ Hole Multi-LLM Architecture
-![UI](Image/Architecture.png)
+![Architecture](Image/Architecture.png)
 
 Automatically Switch of  LLM provider if daily quota limit exceed or any issue occur in llm provider and  no code changes needed.
 

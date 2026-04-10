@@ -48,7 +48,7 @@ SELECT COUNT(*) AS total_patients FROM patients
 ```
 
 **Result:** `total_patients: 200`
-**Notes:** Instant and accurate. Simple COUNT — worked first try.
+**Notes:** Instant and accurate.Simple COUNT — worked first try.
 
 ---
 
