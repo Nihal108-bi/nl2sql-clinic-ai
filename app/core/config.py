@@ -16,7 +16,7 @@ class Settings(BaseSettings):
 
     # Google Gemini
     GOOGLE_API_KEY: str = Field(default="", description="Google AI Studio API key")
-    GEMINI_MODEL: str = Field(default="gemini-1.5-flash")
+    GEMINI_MODEL: str = Field(default="gemini-2.5-flash")
 
     # Groq
     GROQ_API_KEY: str = Field(default="", description="Groq API key")
