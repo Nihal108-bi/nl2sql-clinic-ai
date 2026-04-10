@@ -67,8 +67,8 @@ LLM_PROVIDER=gemini
 
 ### 💬 Streamlit Chat Interface
 
-![Image](Image\ui1.png)
-![Image](Image\ui2.png)
+![UI](Image/ui1.png)
+![UI](Image/ui2.png)
 
 
 * Chat-style interface
@@ -80,8 +80,8 @@ LLM_PROVIDER=gemini
 
 ### 📡 FastAPI Swagger Interface
 
-![Image](Image\docui1.png)
-![Image](Image\docui2.png)
+![Swagger UI](Image/docui1.png)
+![Swagger UI](Image/docui2.png)
 
 
 * Interactive API testing
